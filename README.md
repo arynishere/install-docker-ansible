@@ -15,7 +15,7 @@ git clone https://github.com/rastinsenobari/install-docker-ansible && cd install
 2. Run the Ansible playbook.
 
 ```bash
-ansible-playbook install-docker.yml -K
+ansible-playbook install-docker.yml 
 ```
 After executing the command, you need to enter a password to access "sudo" in order to apply changes to the system.
 
